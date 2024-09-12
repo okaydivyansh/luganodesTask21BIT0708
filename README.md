@@ -45,7 +45,7 @@ Create a `.env` file in the project root to configure your environment variables
 ```plaintext
 ALCHEMY_API_KEY= your alchemy api key
 MONGO_URI= your mongoDB string
-ETH_BLOCK_FROM=14343 (eg.)
+ETH_BLOCK_FROM=eth block number you want to start from
 ```
 
 ### 4. Start MongoDB
@@ -120,8 +120,8 @@ Here is an example `.env` file setup:
 
 ```plaintext
 MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/eth-deposits?retryWrites=true&w=majority
-ETHEREUM_RPC_URL=https://mainnet.infura.io/v3/your-infura-project-id
-PORT=3000
+ALCHEMY_API_KEY=https://eth-mainnet.alchemyapi.io/v2/your-api-key
+ETH_BLOCK_FROM=10000
 ```
 
 ### Example Command to Start the Server
