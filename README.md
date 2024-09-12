@@ -44,14 +44,10 @@ npm install
 Create a `.env` file in the project root to configure your environment variables:
 
 ```plaintext
-MONGO_URI=your_mongodb_connection_string
-ETHEREUM_RPC_URL=your_ethereum_rpc_url
-PORT=3000
+ALCHEMY_API_KEY= your alchemy api key
+MONGO_URI= your mongoDB string
+ETH_BLOCK_FROM=14343 (eg.)
 ```
-
-- **MONGO_URI**: MongoDB connection string.
-- **ETHEREUM_RPC_URL**: Your Ethereum node's RPC URL (can be from services like Infura or Alchemy).
-- **PORT**: Port on which the server should run (default is 3000).
 
 ### 4. Start MongoDB
 
