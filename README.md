@@ -1,5 +1,5 @@
 
-# Luganodes Ethereum Deposit Tracker
+# Luganodes Ethereum Deposit Tracker (DOCUMENTATION as asked in the deliverables)
 
 ## Overview
 
