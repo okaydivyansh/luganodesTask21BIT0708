@@ -10,7 +10,6 @@ The **Luganodes Ethereum Deposit Tracker** is a Node.js application that monitor
 - **Real-Time Blockchain Monitoring**: Tracks Ethereum deposit transactions as they happen.
 - **Database Integration**: Persist deposit data in MongoDB for long-term storage and analysis.
 - **Extensible Design**: Easily add new features or modify the existing functionality.
-- **REST API Integration**: (Optional) Expose deposit data via REST API.
 
 ## Prerequisites
 
@@ -145,7 +144,6 @@ You can further extend the project by adding:
 ## Troubleshooting
 
 - **MongoDB Connection Errors**: Ensure the `MONGO_URI` is correctly set up and the database is accessible.
-- **Ethereum Node Issues**: Double-check your Ethereum RPC URL and ensure it's a working endpoint.
 - **Missing Environment Variables**: Make sure your `.env` file is correctly populated.
 
 ## Contributing
